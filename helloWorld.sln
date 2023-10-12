@@ -6,20 +6,109 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helloWorld", "helloWorld\helloWorld.csproj", "{B4B289EF-510A-48B5-B0FF-9DF9A2485379}"
 EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B4B289EF-510A-48B5-B0FF-9DF9A2485379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4B289EF-510A-48B5-B0FF-9DF9A2485379}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4B289EF-510A-48B5-B0FF-9DF9A2485379}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4B289EF-510A-48B5-B0FF-9DF9A2485379}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CCC8C101-5407-4B3D-9E64-8C5107574FC1}
+// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, world!");
+Console.WriteLine("Hello, instru!");
+Console.WriteLine("Como les va muchachos");
+// programa que calcula la calculacion de la calculadera en el area de una
+figura de 3 dimensiones con numeros enteros
+int ladoA;
+int ladoB;
+int resultado;
+Console.WriteLine("Calcula el area de un rectangulo");
+Console.WriteLine("Ingrese el valor del lado A");
+//ladoA=(Console.ReadLine());
+ladoA= Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Ingrese el valor del lado B");
+ladoB = Convert.ToInt32(Console.ReadLine());
+resultado = ladoA* ladoB;
+Console.WriteLine(resultado);
+Console.WriteLine("El resultado es" + resultado);
+Console.WriteLine("El lado A es:" + ladoA "El lado B es:" + ladoB "El resultado es:" + resultado);
+
+
+using System;
+// sabe nadar
+string res;
+Console.WriteLine("Sabes nadar");
+res = Console.ReadLine();
+Console.WriteLine(res + " sabe nadar que pro");
+// tiene igual de color favorito
+Console.WriteLine("tiene igual de color favorito");
+res = Console.ReadLine();
+Console.WriteLine(res + " nós somos os mesmos");
+// no le gusta el futbol
+Console.WriteLine("no le gusta el futbol");
+res = Console.ReadLine();
+Console.WriteLine(res + " O Brasil te odeia");
+// le gusta hacer deporte
+Console.WriteLine("le gusta hacer deporte");
+res = Console.ReadLine();
+Console.WriteLine(res + " que giga pro");
+// nacio el mismo mes que usted
+Console.WriteLine("nacio en el mismo mes que usted");
+res = Console.ReadLine();
+Console.WriteLine(res + " nós somos os mesmos");
+// le gustan los buñuelos
+Console.WriteLine("le gusta los buñuelos");
+res = Console.ReadLine();
+Console.WriteLine(res + " gustar buñuelos");
+// tiene igual pasa tiempo
+Console.WriteLine("tiene igual pasa tiempo");
+res = Console.ReadLine();
+Console.WriteLine(res + " nós somos os mesmos");
+// le gustan los niños
+Console.WriteLine("le gusta los niños");
+res = Console.ReadLine();
+Console.WriteLine(res + "esse cara quer prisão");
+// le gusta las matematicas
+Console.WriteLine("le gusta las matematicas");
+res = Console.ReadLine();
+Console.WriteLine(res + "que pro");
+// tiene ojos oscuros
+Console.WriteLine("tiene ojos oscuros");
+res = Console.ReadLine();
+Console.WriteLine(res + "sos color humildes");
+// le gusta el baile
+Console.WriteLine("le gusta el baile");
+res = Console.ReadLine();
+Console.WriteLine(res + "bailar y bailar");
+// es hijo único
+Console.WriteLine("el hijo unico");
+res = Console.ReadLine();
+Console.WriteLine(res + "mas solitario pa donde");
+// le gusta la natilla
+Console.WriteLine("le gusta la natilla");
+res = Console.ReadLine();
+Console.WriteLine(res + "pa navidad, comer al piso");
+// le gusta leer
+Console.WriteLine("le gusta leer");
+res = Console.ReadLine();
+Console.WriteLine(res + "sos re pro");
+// tiene familia en otra ciudad
+Console.WriteLine("tiene familia en otra cuidad");
+res = Console.ReadLine();
+Console.WriteLine(res + "tiene familia en otra cuidad");
+// le recibi un abrazo
+Console.WriteLine("le recebi un abrazo");
+res = Console.ReadLine();
+Console.WriteLine(res + " amiguis");
+// le gusta investigar
+Console.WriteLine("le gusta investigar");
+res = Console.ReadLine();
+Console.WriteLine(res + " que sabio");
+// no es de mi mismo sexo
+Console.WriteLine("no es de su mismo sexo");
+res = Console.ReadLine();
+Console.WriteLine(res + " wow una afecto femenino");
+// se ha ganado algo
+Console.WriteLine("se ha ganado algo");
+res = Console.ReadLine();
+Console.WriteLine(res + " que capo");
+// tiene un hijo varón menor a 18 años
+Console.WriteLine("tiene un hijo varon menor a 18 años");
+res = Console.ReadLine();
+Console.WriteLine(res + " jutsu multiclones de sombra");
+
 	EndGlobalSection
 EndGlobal
